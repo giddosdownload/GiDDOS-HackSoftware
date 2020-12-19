@@ -1,0 +1,8 @@
+requests
+colorama
+threading
+time
+sys
+random
+os
+progressbar
