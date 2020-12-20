@@ -1,6 +1,6 @@
 requests
 colorama
-threading
+threaded
 time
 sys
 random
