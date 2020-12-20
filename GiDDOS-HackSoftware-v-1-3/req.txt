@@ -1,5 +1,4 @@
 requests
 colorama
 threaded
-random
 progressbar
