@@ -33,13 +33,12 @@ The best free DDoS software in 2021
     pip install -r req.txt
     python main.py
     ```
-# Update
+# Remove
 ## For Windows
 1. Enter the following command to remove the previous version:
      ```bash
      rmdir / S / Q GiDDOS-HackSoftware
      ```
-2. Follow the steps from step 3 of the Windows installation instructions.
 ## For Android
 1. Enter the following command to uninstall the previous version:
      ```bash
