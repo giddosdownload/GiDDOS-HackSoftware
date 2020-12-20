@@ -1,6 +1,4 @@
 requests
 colorama
 threaded
-times
-sys
 random
