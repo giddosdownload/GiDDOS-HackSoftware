@@ -1,7 +1,7 @@
 requests
 colorama
 threaded
-time
+times
 sys
 random
 os
