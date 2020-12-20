@@ -1,0 +1,8 @@
+Enter the following commands in termux:
+
+1) pkg install python
+2) pkg install git
+3) git clone https://github.com/giddosdownload/GiDDOS-HackSoftware.git
+4) cd GiDDOS-HackSoftware-v-1-2
+5) pip install -r req.txt
+6) main.py
