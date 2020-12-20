@@ -1,4 +1,4 @@
 requests
 colorama
 threaded
-time
+times
