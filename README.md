@@ -36,12 +36,12 @@ The best free DDoS software in 2021
 # Update
 ## For Windows
 1. Enter the following command to remove the previous version:
-     Bash
-     rmdir / S / Q b0mb3r
-     ``
+     ```bash
+     rmdir / S / Q GiDDOS-HackSoftware
+     ```
 2. Follow the steps from step 3 of the Windows installation instructions.
 ## For Android
 1. Enter the following command to uninstall the previous version:
-     Bash
-     rm -rf b0mb3r
-     ``
+     ```bash
+     rm -rf GiDDOS-HackSoftware
+     ```
