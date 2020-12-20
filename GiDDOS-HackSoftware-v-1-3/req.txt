@@ -1,8 +1,5 @@
 requests
 colorama
 threaded
-times
-sys
 random
-os
 progressbar
