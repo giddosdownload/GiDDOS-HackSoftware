@@ -14,9 +14,9 @@ from time import sleep
 init()
 print(Style.BRIGHT + Fore.GREEN)
 bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-	'Launching... ', # Статический текст
-	progressbar.Bar(left='|', marker='█', right='|'), # Прогресс
-	progressbar.SimpleProgress(), # Надпись "6 из 10"
+	'Launching... ',
+	progressbar.Bar(left='|', marker='█', right='|'),
+	progressbar.SimpleProgress(),
 ]).start()
 
 t = 0.0
@@ -54,9 +54,9 @@ except requests.exceptions.InvalidURL:
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: URL " + "'" + str(url) + "'" + " not exist!")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -73,9 +73,9 @@ except requests.exceptions.MissingSchema:
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: URL " + "'" + str(url) + "'" + " not exist!")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -93,9 +93,9 @@ except requests.exceptions.ConnectionError:
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: URL " + "'" + str(url) + "'" + " not exist!")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -113,9 +113,9 @@ if not url.__contains__("http"):
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: Invalid domain")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -133,9 +133,9 @@ elif not url.__contains__("."):
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: Invalid domain")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -154,9 +154,9 @@ if thrnom == "0":
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: Power count is incorrect!")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -173,9 +173,9 @@ elif thrnom == "":
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: Power count is incorrect!")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -200,17 +200,22 @@ elif mode_ask == "2":
 	print(" ► OK")
 
 else:
-	print( Fore.RED + "ERROR: Invalid answer!" + Fore.GREEN )
-	print( Fore.RED + "WARNING: Program will turn after 5 seconds" + Fore.GREEN )
-	time.sleep(1)
-	print( Fore.RED + "WARNING: Program will turn after 4 seconds" + Fore.GREEN )
-	time.sleep(1)
-	print( Fore.RED + "WARNING: Program will turn after 3 seconds" + Fore.GREEN )
-	time.sleep(1)
-	print( Fore.RED + "WARNING: Program will turn after 2 seconds" + Fore.GREEN )
-	time.sleep(1)
-	print( Fore.RED + "WARNING: Program will turn after 1 seconds" + Fore.GREEN )
-	time.sleep(1)
+	print( Fore.RED + "ERROR: Invalid answer!" )
+	print(Style.NORMAL)
+	print( Fore.RED + "ERROR: Invalid answer!")
+	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
+	]).start()
+	 
+	t = 0.0
+	while t <= 10.0:
+		bar.update(t)
+		time.sleep(0.02)
+		t += 0.1
+	bar.finish()
+
 	sys.exit()
 
 print()
@@ -346,9 +351,9 @@ if ask_for_start == "NO":
 	print(Style.NORMAL)
 	print( Fore.YELLOW + "INFO: DDoS attack was canceled!" + Fore.RED )
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -367,9 +372,9 @@ elif ask_for_start == "no":
 	print(Style.NORMAL)
 	print( Fore.YELLOW + "INFO: DDoS attack was canceled!" + Fore.RED )
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -387,9 +392,9 @@ elif ask_for_start == "No":
 	print(Style.NORMAL)
 	print( Fore.YELLOW + "INFO: DDoS attack was canceled!" + Fore.RED )
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
@@ -408,9 +413,9 @@ else:
 	print(Style.NORMAL)
 	print( Fore.RED + "ERROR: Invalid answer!")
 	bar = progressbar.ProgressBar(maxval=10.0, widgets=[
-		'Turn off... ', # Статический текст
-		progressbar.Bar(left='[', marker='█', right=']'), # Прогресс
-		progressbar.SimpleProgress(), # Надпись "6 из 10"
+		'Turn off... ',
+		progressbar.Bar(left='[', marker='█', right=']'),
+		progressbar.SimpleProgress(),
 	]).start()
 	 
 	t = 0.0
