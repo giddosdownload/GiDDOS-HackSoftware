@@ -17,7 +17,7 @@ The best free DDoS software in 2021
     ```
 
 ## For Linux
-1. Open terminal and check are you have install [git], [pip3] and [python3]. If yes, continue
+1. Open terminal and check are you have install git, pip3 and python3. If yes, continue
 2. Enter the following commands one by one to install the required components
     ```bash
     sudo apt update
