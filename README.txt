@@ -32,7 +32,7 @@ Attentively read all instructions and use conditions before program using!!!
 - Go!)
 
 ◈ Atention 
-- For you security, use a VPN service!
+- The software only for cybersecurity testing (example of use: Testing your site)
 - If you see that the power is not enough, you can open several program windows
 - Regularly check the terms and conditions on our website, because these terms and conditions may become outdated.(link: https://giddosdownload.github.io/README.txt)
 
@@ -40,5 +40,5 @@ Attentively read all instructions and use conditions before program using!!!
 GiDDOS-HackSoftware 
 Be careful, enjoy using it!
 Site: https://giddosdownload.github.io/
-Support: giddoshelp@gmail.com
-Project Developers: TUSSA & ALEXAGEN
+Support: giddoshelp@protonmail.ch
+Project Developer: TUSSA
