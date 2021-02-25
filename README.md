@@ -1,6 +1,6 @@
 # GiDDOS-HackSoftware
 DDoS/DoS attack tool. Cybersecurity!
-Free source! Best HTTP Flood!
+Free source! Best HTTP flood!
 
 # Download
 ## For Windows
@@ -9,7 +9,7 @@ Free source! Best HTTP Flood!
 3. Clone the repository using git and navigate to the folder
     ```bash
     git clone https://github.com/giddosdownload/GiDDOS-HackSoftware.git
-    cd GiDDOS-HackSoftware/GiDDOS-HackSoftware-v-1-3
+    cd GiDDOS-HackSoftware
     ```
 4. Install all required libraries and run the script
     ```bash
@@ -26,7 +26,7 @@ Free source! Best HTTP Flood!
 3. Clone the repository using git and navigate to the folder
     ```bash
     git clone https://github.com/giddosdownload/GiDDOS-HackSoftware.git
-    cd GiDDOS-HackSoftware/GiDDOS-HackSoftware-v-1-3
+    cd GiDDOS-HackSoftware
     ```
 4. Install all required libraries and run the script
     ```bash
@@ -44,7 +44,7 @@ Free source! Best HTTP Flood!
 3. Clone the repository using git and navigate to the folder
     ```bash
     git clone https://github.com/giddosdownload/GiDDOS-HackSoftware.git
-    cd GiDDOS-HackSoftware/GiDDOS-HackSoftware-v-1-3
+    cd GiDDOS-HackSoftware
     ```
 4. Install all required libraries and run the script
     ```bash
