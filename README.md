@@ -1,6 +1,6 @@
 # GiDDOS-HackSoftware
-The best free DDoS software in 2021!
-These are non-GUI versions that are meant to be used in terminals.
+DDoS/DoS attack tool. Cybersecurity!
+Free source! Best HTTP Flood!
 
 # Download
 ## For Windows
